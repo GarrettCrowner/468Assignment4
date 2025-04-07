@@ -1,0 +1,20 @@
+{
+  "name": "shark-info-assignment4",
+  "version": "1.0.0",
+  "description": "nodejs image demo",
+  "author": "brookassa4@gmail.com",
+  "license": "WCUPA",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GarrettCrowner/468Assignment4"
+  },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
