@@ -12,10 +12,10 @@ services:
       - ./mongo/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
 
   node:
-    build: ./node
+    build: .
     container_name: shark-node
     ports:
-      - "3000:3000"
+      - "8080:8080"
     depends_on:
       - mongo
 
